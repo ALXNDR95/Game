@@ -121,10 +121,10 @@ public class Characters implements Assaulter {
             return (int) (Math.random() * 100);
         }
 
-    /*private String crash (Characters target) {
+    private String crash (Characters target) {
         target.hp -= this.damage;
         return String.format("%s attacks %s for %d damage!", this.name, target.name, this.damage);
-    }*/
+    }
 
     public void info () {
         System.out.println("\tYour HP: " + name + hp);

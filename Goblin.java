@@ -6,4 +6,5 @@ public class Goblin extends Enemy {
 
         System.out.println("Created goblin " + name + "," + "HP: " + hp);
     }
+
 }
